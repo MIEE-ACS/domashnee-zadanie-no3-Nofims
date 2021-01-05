@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="tb2" HorizontalAlignment="Left" Height="23" Margin="249,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="23" Margin="249,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb1" Margin="249,173,0,0" TextWrapping="Wrap" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120"/>
         <Label Content="Введите текст" HorizontalAlignment="Left" Margin="48,173,0,0" VerticalAlignment="Top"/>
         <Label Content="Количество предложений" HorizontalAlignment="Left" Margin="48,253,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btncount" Content="Посчитать" HorizontalAlignment="Left" Margin="555,213,0,0" VerticalAlignment="Top" Width="75" Click="Btncount_Click"/>
+        <Button x:Name="btncount" Content="Посчитать" HorizontalAlignment="Left" Margin="555,213,0,0" VerticalAlignment="Top" Width="75" Click="btncount_Click"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Height="23" Margin="249,253,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
